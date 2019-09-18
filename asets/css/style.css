@@ -4,7 +4,10 @@
 }
 
 #header {
-  font-size: 50px;
+  font-size: 69px;
+  float: left; 
+  text-shadow: darkslategrey;
+  text-align: left;
 }
 
 body {
@@ -29,11 +32,6 @@ body {
   color: black;
 }
 
-hr {
-  width: 100%;
-  height: 10px;
-}
-
 .gif:hover {
   cursor: pointer;
   border: sandybrown solid 7.5px;
@@ -45,4 +43,16 @@ hr {
 
 input[type=text] {
    font-size: 20px;
+}
+
+#search-input {
+  font-size: 94%;
+  text-align: left;
+  color: #000;
+}
+
+#instructions {
+  font-size: 12px;
+  text-align: left;
+  color: #000;
 }
