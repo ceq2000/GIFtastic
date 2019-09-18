@@ -1,5 +1,6 @@
 <DOCTYPE html>
     <html>
+
     <head>
         <title>GIFtastic - Giphy Miner / Collector</title>
         <!-- Latest compiled and minified CSS -->
@@ -8,7 +9,7 @@
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
             integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        
+
         <!-- FAVICONS -->
         <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
         <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
@@ -24,38 +25,35 @@
 
     <body>
         <section>
-        
-            
-                <div class="container" style="background-color:sandybrown">
-                    <row style="font-size: 110%" style="align-content: center; text-align: left">
-                    <h1 id="header">GIFtastic</h1>  <p class="col-lg-8 col-lg-offset-2"><b>Generate new GIF search terms (topics ):</b></p>
-                    </row>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <form class="form-inline">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Try me!" id="submitBox"
-                                    style="width:300px; height: 45px">
-                                <button type="submit" class="btn btn-lg" id="submitTerm" style="background-color: darkslategrey; color: #ffffff"><span
-                                        class="glyphicon glyphicon-search"></span> Get My GIFs</button>
-                            </div>
-                        </form>
-                    </div>
+            <div class="container" style="background-color:sandybrown">
+                <row style="font-size: 110%" style="align-content: center; text-align: left">
+                    <h1 id="header">GIFtastic</h1>
+                    <p class="col-lg-8 col-lg-offset-2"><b>Generate new GIF search terms (topics ):</b></p>
+                </row>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Try me!" id="submitBox"
+                                style="width:300px; height: 45px">
+                            <button type="submit" class="btn btn-lg" id="submitTerm"
+                                style="background-color: darkslategrey; color: #ffffff"><span
+                                    class="glyphicon glyphicon-search"></span> Get My GIFs</button>
+                        </div>
+                    </form>
                 </div>
-            
+            </div>
+
         </section>
         <section id="searchSection">
             <div class="container" style="background-color:moccasin">
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1 text-center" id="searchButtonsContainer">
                     </div>
-                
+
                 </div>
             </div>
         </section>
-        <!-- <section id="userInput">
-            
-        </section> -->
-
+        
         <section id="displaySection">
             <div class='container' style="background-color:moccasin">
                 <div class="col-lg-12" id='showGIFS'>
