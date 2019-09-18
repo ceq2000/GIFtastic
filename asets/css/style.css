@@ -38,3 +38,11 @@ hr {
   cursor: pointer;
   border: sandybrown solid 7.5px;
 }
+
+::placeholder {
+  font-size: 20px;
+}
+
+input[type=text] {
+   font-size: 20px;
+}
